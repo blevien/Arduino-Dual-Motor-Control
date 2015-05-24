@@ -1,5 +1,7 @@
 /*
  Read pulse length from Spektrum 2.4 Ghz Reciever for dual motor control, and spin 2 motors
+ L293D Code Adapted from 
+ https://www.safaribooksonline.com/library/view/beginning-arduino/9781430232407/project_16_using_an_l293d_motor_driver_ic.html
 */
 
 #define steeringInput 8
