@@ -8,6 +8,13 @@ Overall, it works pretty well in my early tests though sometimes it isn't as res
 
 Eventually, I may upgrade it to use a cheap BLE module but for now I am calling this done.
 
+Description
+-------------------
+Basic Operation:
+* Power comes into the board through a 7805 Regulator. One rail is 5v for Arduino, the other is supply voltage for motors.
+* Arduino Digital Pins read pulses from RC reciever (Steering & Throttle Separately) and translates pulses for Direction & Speed into 0-5v (PWM) and a forward or backwards
+* Arduino sends 0-5v (PWM) to H-Bridge enable pin, and sets the proper configuration of the motor control lines to H-Bridge according to direction
+
 
 Final Proto-Board
 ------------------
