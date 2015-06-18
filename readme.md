@@ -1,4 +1,6 @@
-This ATmega 328p-based project was meant to fix my son's R/C truck that I dropped and cracked the control board.
+Description
+-------------------
+This ATmega328p + [SN754410 H-Bridge](https://www.sparkfun.com/products/315) based project was meant to fix my son's R/C truck that I dropped and cracked the control board.
 
 It also upgrades the controller to my Spektrum DX3C for improved range, and also enables an external battery pack, like a small 7.4v 2 cell 180 mAh LiPo from a Losi Micro Crawler.
 
@@ -7,4 +9,7 @@ Overall, it works pretty well in my early tests though sometimes it isn't as res
 Eventually, I may upgrade it to use a cheap BLE module but for now I am calling this done.
 
 
+Final Proto-Board
+------------------
 
+![alt tag](Dual_Motor_Control-Final.jpg)
